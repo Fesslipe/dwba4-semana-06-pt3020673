@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<object data="nav.html" type="text/html" width="1250" height="100"></object>
+
+<head>
+
+  <title> Eventos </title>
+</head>
+
+<body>
+
+  <img src="https://www.ifsp.edu.br/images/Marca_IFSP_2015031.png" alt="Imagem não encontrada">
+
+  <h1>Inscreva-se</h1>
+  <br />
+
+  <form>
+  <fieldset>
+    <form action="novoCliente">
+      <div>
+        <label for="evento">Escolha um Evento:</label>
+        <select id="evento" name="evento">
+          <option value="Voe">Voe sem asas</option>
+          <option value="Fes">Festa Junina</option>
+          <option value="Sem">Semana da Téc</option>
+        </select>
+      </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Informações de acesso</legend>
+    <form action="novoCliente">
+
+      <label for="nomeUsuario">Nome de Usuário</label>:<br>
+      <input required type="text" name="nomeUsuario" id="nomeUsuario"><br>
+
+      <label for="senha">Senha</label>:<br>
+      <input required type="password" name="senha" id="senha"><br>
+
+      <label for="confirmaSenha">Confirme a Senha</label>:<br>
+      <input required type="password" name="confirmaSenha" id="confirmaSenha"><br>
+  </fieldset>
+ 
+
+  <fieldset>
+    <legend>Informações pessoais</legend>
+
+
+      <label for="primeiroNome">Primeiro Nome</label>:<br>
+      <input type="text" name="primeiroNome" id="primeiroNome"><br>
+
+      <label for="E-mail">E-mail</label>:<br>
+      <input type="text" name="e-mail" id="e-mail"><br>
+
+      <label for="celular">Celular</label>:<br>
+      <input type="tell" name="celular" id="celular"><br>
+
+      <fieldset>
+        <label>Sexo:</label><br>
+        <ul style="list-style: none; padding: 0;">
+          <li style="display: inline;"><input type="radio" name="sexo" value="masculino">Masculino</li>
+          <li style="display: inline;"><input type="radio" name="sexo" value="feminino">Feminino</li>
+          <li style="display: inline;"><input type="radio" name="sexo" value="outro">Outro</li>
+        </ul>
+        
+  </fieldset>
+
+
+  <label for="dataAniversario">Data de Aniversário:</label><br>
+    <input type="date" name="dataAniversario" id="dataAniversario"><br>
+    
+    <label for="corFavorita">Cor Favorita:</label><br>
+    <input type="color" name="corFavorita" id="corFavorita"><br>
+    
+    <label for="perfilGithub">Perfil do Github:</label><br>
+    <input type="url" name="perfilGithub" id="perfilGithub"><br>
+  </fieldset>
+
+  </fieldset>
+  <button type="submit" value=> "Inscrever-se"</button>
+  <button type="reset"> "Limpar"</button>
+  </form>
+  </fieldset>
+
+</body>
+
+</html>
